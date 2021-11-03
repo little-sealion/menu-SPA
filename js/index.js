@@ -144,42 +144,42 @@ const menus = {
       name: 'Pineapple Express',
       description:
         'Fair Quinoa Vodka, Apple liqueur, Grapefruit, Pineapple and Dill',
-      image: '/images/friends_logo.png',
+      image: 'https://unsplash.com/photos/dLCyi3URVWI',
       price: 1.99,
     },
     {
       name: 'Coolcumber',
       description:
         'Hendrick’s Gin, Lillet Blanc, Lemon, Cucumber, Grapefruit bittersand Egg White',
-      image: '/images/friends_logo.png',
+      image: 'https://unsplash.com/photos/dLCyi3URVWI',
       price: 3.99,
     },
     {
       name: 'Mrs Red',
       description:
         'Plantation 3 Stars Rum, Pama Pomegranate, Lime, Raspberry Sorbet and Egg white',
-      image: '/images/friends_logo.png',
+      image: 'https://unsplash.com/photos/dLCyi3URVWI',
       price: 1.99,
     },
     {
       name: 'Rendezvous',
       description:
         'Four Pillars Bloody Shiraz, Luxardo Maraschino, Coconut, Lemon and Orange Marmelade',
-      image: '/images/friends_logo.png',
+      image: 'https://unsplash.com/photos/dLCyi3URVWI',
       price: 3.99,
     },
     {
       name: 'Summer Reserve',
       description:
         'Woodford Reserve Bourbon, Peach Liqueur, Mint, Rosemary and Lemon',
-      image: '/images/friends_logo.png',
+      image: 'https://unsplash.com/photos/dLCyi3URVWI',
       price: 1.99,
     },
     {
       name: 'La Belle France',
       description:
         'Grey Goose Pear Vodka, Pavan Muscat, Passionfruit, Cucumber and Sparkling Wine',
-      image: '/images/friends_logo.png',
+      image: 'https://unsplash.com/photos/dLCyi3URVWI',
       price: 3.99,
     },
   ],

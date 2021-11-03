@@ -1,0 +1,88 @@
+/* override bootstrap navbar style */
+.navbar-collapse {
+  justify-content: space-between;
+}
+/* override bootstrap navbar style */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #000;
+  background-color: red;
+}
+.fas {
+  font-size: xx-large;
+}
+#home,
+#main,
+#drink,
+#order,
+#svgIcon,
+aside {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+#home,
+#main,
+#drink,
+#order {
+  padding: 100px 20px;
+}
+section {
+  display: flex;
+  min-height: 93vh;
+}
+
+aside {
+  background: #005f73;
+}
+footer {
+  width: 100vw;
+  background: #000;
+  color: white;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  text-align: center;
+}
+/* get rid of input[type=number] default arrows */
+input[type='number'] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+#orderRow > input[type='number'],
+#orderRow > button {
+  display: none;
+}
+input[type='number'] {
+  width: 60px;
+  border: none;
+  margin-left: 30px;
+  font-size: larger;
+}
+button {
+  width: 40px;
+}
+@media screen and (min-width: 576px) {
+  aside {
+    display: block;
+    width: 20vw;
+  }
+  main {
+    width: 80vw;
+  }
+  #svgIcon {
+    display: inline-block;
+  }
+  #home,
+  #main,
+  #drink,
+  #order {
+    flex-direction: row wrap;
+  }
+}

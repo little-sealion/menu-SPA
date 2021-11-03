@@ -28,11 +28,13 @@ function showLastVisited() {
     )[0];
     lastVisitedPage.style.display = 'flex';
     lastVisitedNav.classList.add('active');
+  } else {
+    showPage(document.getElementsByClassName('nav-link')[0], 'home');
   }
 }
 
 // when a nav menu clicked, show the corresponding page
-function showPage(event, pageId) {
+function showPage(navElem, pageId) {
   const navbarToggler = document.getElementById('navbarToggler');
   setTimeout(() => {
     navbarToggler.classList.toggle('show');
@@ -41,7 +43,7 @@ function showPage(event, pageId) {
   const divs = document.getElementsByClassName('page');
   const navLinks = document.getElementsByClassName('nav-link');
   for (let navLink of navLinks) {
-    if (event.target === navLink) {
+    if (navElem === navLink) {
       navLink.classList.add('active');
     } else {
       navLink.classList.remove('active');

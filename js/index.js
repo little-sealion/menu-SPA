@@ -248,9 +248,12 @@ function populateOrderPage() {
     Item.innerHTML += `<span>Ordered:${orderItem.qty}</span>`;
     OrderRow.appendChild(Item);
   });
-  OrderRow.innerHTML += `<h2>Total Qty: ${totalItem}</h2> <h2>   Total Price:${totalPrice.toFixed(
-    2
-  )}</h2>`;
+    const TotalItem = document.createElement('h2');
+  TotalItem.innerText = `Total Qty: ${totalItem}`;
+  TotalItem.style.marginTop = '50px';
+  OrderRow.appendChild(TotalItem);
+  OrderRow.innerHTML += ` <h2>Total Price:${totalPrice.toFixed(2)}</h2>`;
+
 }
 const OrderMenu = document.getElementById('orderMenu');
 OrderMenu.addEventListener('click', () => {

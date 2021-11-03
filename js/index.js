@@ -151,7 +151,7 @@ const menus = {
       name: 'Coolcumber',
       description:
         'Hendrick’s Gin, Lillet Blanc, Lemon, Cucumber, Grapefruit bittersand Egg White',
-      image: 'https://unsplash.com/photos/dLCyi3URVWI',
+      image: '../images/friends_logo.png',
       price: 3.99,
     },
     {
